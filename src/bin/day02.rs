@@ -81,8 +81,7 @@ fn part2() -> usize {
     invalid_ids.into_iter().sum()
 }
 
-fn main() -> io::Result<()> {
+fn main() {
     println!("Part1: invalid IDs sum = {:?}", part1());
     println!("Part2: invalid IDs sum = {:?}", part2());
-    Ok(())
 }

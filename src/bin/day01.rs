@@ -62,8 +62,7 @@ fn part2() -> u32 {
     password
 }
 
-fn main() -> io::Result<()> {
+fn main() {
     println!("Part1: password = {:?}", part1());
     println!("Part2: password = {:?}", part2());
-    Ok(())
 }
